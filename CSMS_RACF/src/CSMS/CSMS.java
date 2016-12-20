@@ -36,6 +36,7 @@ public class CSMS
   public void ApplicationMangement()
   {
 	driver.findElement(By.xpath("//*[@id='mainnav-menu']/li[3]/a/i")).click();
+	driver.quit();
   }
   
 
